@@ -1,0 +1,229 @@
+:root {
+    --light-blue: #2196f3;
+}
+.header-navigation {
+    width: 1600px;
+    height: 80px;
+}
+
+.header-studio {
+    color: black;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.19;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.logo {
+    color: #2196f3;
+    line-height: 1.19;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.19;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #111;
+}
+
+.nav-list {
+    list-style: none;
+    list-style-type: none;
+}
+
+.nav-list a {
+    font-size: 14px;
+    color: #111;
+    line-height: 1.14;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: var(--light-blue);
+}
+.contact-list {
+    list-style: none;
+    list-style-type: none;
+}
+
+.nav-mail {
+    font-size: 14px;
+    color: #757575;
+    line-height: 1.14;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav-mail:hover {
+    color: var(--light-blue);
+}
+.nav-tel {
+    font-size: 14px;
+    color: #757575;
+    line-height: 1.14;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav-tel:hover {
+    color: var(--light-blue);
+}
+.service {
+    height: 600px;
+    width: 1600px;
+    background-color: #2f303a;
+}
+.button-title {
+    color: white;
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+    width: 696px;
+    height: 120px;
+}
+.active-button {
+    color: white;
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 700;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 4px;
+}
+.active-button:active {
+    color: magenta;
+}
+.primary-list p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 1.71;
+}
+
+.primary-list h3 {
+    color: #212121;
+    text-transform: uppercase;
+}
+.what-we-do {
+    line-height: 1.17;
+}
+.team-section {
+    background-color: #f5f4fa;
+}
+.team-title {
+    line-height: 1.17;
+}
+.team-names {
+    color: #212121;
+    font-size: 16px;
+    line-height: 1.17;
+    font-weight: 500;
+}
+.footer-section {
+    background-color: #2f303a;
+}
+.footer-localization {
+    text-decoration: none;
+    color: white;
+    line-height: 1.19;
+    font-style: normal;
+}
+.footer-mail {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.6);
+    line-height: 1.19;
+    font-style: normal;
+}
+.footer-mail:hover {
+    color: var(--light-blue);
+}
+.footer-mail-portfolio {
+    color: rgb(255, 255, 255, 0.6);
+    line-height: 1.19;
+    font-style: normal;
+}
+.footer-mail-portfolio:hover {
+    color: var(--light-blue);
+}
+.footer-tel {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.6);
+    line-height: 1.19;
+    font-style: normal;
+}
+.footer-tel:hover {
+    color: var(--light-blue);
+}
+.footer-studio {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.17;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.secondary-list figure {
+    background-color: white;
+    width: 270px;
+    height: 368px;
+    border-radius: 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.secondary-list figcaption {
+    font-size: 16px;
+    line-height: 1.19;
+    color: #212121;
+    font-weight: 500;
+}
+.team-position {
+    color: #757575;
+    line-height: 1.19;
+}
+.secondary-list {
+    list-style-type: none;
+}
+.primary-list {
+    list-style-type: none;
+}
+.portfolio-list {
+    list-style-type: none;
+}
+.portfolio-list figcaption {
+    color: #212121;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+}
+.project-names {
+    color: #212121;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+}
+.project-type {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 400;
+}
+.portfolio-nav-buttons {
+    list-style-type: none;
+}
+.portfolio-nav-buttons button {
+    color: #212121;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    border-style: none;
+}
+.portfolio-nav-buttons button:hover {
+    background-color: #2196f3;
+    color: white;
+}
