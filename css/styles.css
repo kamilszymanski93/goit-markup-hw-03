@@ -4,6 +4,7 @@
 .header-navigation {
     width: 1600px;
     height: 80px;
+    display: flex;
 }
 
 .header-studio {
@@ -22,6 +23,8 @@
     line-height: 1.19;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
+    margin-top: 24px;
+    margin-right: 93px;
 }
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
@@ -31,6 +34,13 @@ body {
 .nav-list {
     list-style: none;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-right: 364px;
+    margin-bottom: 32px;
+    padding: 0;
+    gap: 46px;
 }
 
 .nav-list a {
@@ -47,6 +57,10 @@ body {
 .contact-list {
     list-style: none;
     list-style-type: none;
+    display: flex;
+    margin-top: 32px;
+    padding: 0;
+    gap: 50px;
 }
 
 .nav-mail {
@@ -191,6 +205,12 @@ body {
 }
 .portfolio-list {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.portfolio-section {
+    display: flex;
 }
 .portfolio-list figcaption {
     color: #212121;
@@ -210,13 +230,21 @@ body {
     line-height: 1.88;
     font-weight: 400;
 }
+.box-portfolio {
+    margin-top: 147px;
+    display: flex;
+    align-content: center;
+}
 .portfolio-nav-buttons {
     list-style-type: none;
+    display: flex;
+    gap: 8px;
 }
 .portfolio-nav-buttons button {
     color: #212121;
     font-size: 16px;
     line-height: 1.63;
+    font-weight: 500;
     cursor: pointer;
     text-decoration: none;
     background-color: #f5f4fa;
@@ -226,4 +254,10 @@ body {
 .portfolio-nav-buttons button:hover {
     background-color: #2196f3;
     color: white;
+}
+.container {
+    box-sizing: border-box;
+    width: 1200px;
+    justify-content: center;
+    margin-left: 215px;
 }
