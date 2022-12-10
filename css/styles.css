@@ -92,6 +92,8 @@ body {
     height: 600px;
     width: 1600px;
     background-color: #2f303a;
+    display: flex;
+    align-items: center;
 }
 .button-title {
     color: white;
@@ -100,6 +102,7 @@ body {
     font-weight: 900;
     width: 696px;
     height: 120px;
+    text-align: center;
 }
 .active-button {
     color: white;
