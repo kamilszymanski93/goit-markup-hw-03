@@ -9,6 +9,7 @@
     width: 1600px;
     height: 80px;
     display: flex;
+    border-bottom: 1px solid #ececec;
 }
 
 .header-studio {
@@ -143,6 +144,8 @@ body {
 }
 .footer-section {
     background-color: #2f303a;
+    display: flex;
+    flex-direction: column;
 }
 .footer-localization {
     text-decoration: none;
@@ -248,6 +251,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 8px;
+    margin-bottom: 34px;
 }
 .portfolio-nav-buttons button {
     color: #212121;
@@ -259,6 +263,7 @@ body {
     background-color: #f5f4fa;
     border-radius: 4px;
     border-style: none;
+    padding: 6px 22px;
 }
 .portfolio-nav-buttons button:hover {
     background-color: #2196f3;
