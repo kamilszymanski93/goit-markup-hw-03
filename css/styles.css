@@ -6,8 +6,6 @@
     --light-blue: #2196f3;
 }
 .header-navigation {
-    width: 1600px;
-    height: 80px;
     display: flex;
     border-bottom: 1px solid #ececec;
 }
@@ -54,6 +52,7 @@ body {
     line-height: 1.14;
     font-weight: 500;
     text-decoration: none;
+    letter-spacing: 3%;
 }
 
 .nav-list a:hover {
@@ -89,19 +88,18 @@ body {
     color: var(--light-blue);
 }
 .service {
-    height: 600px;
-    width: 1600px;
     background-color: #2f303a;
     display: flex;
     align-items: center;
+    padding: 200px 452px 200px 452px;
 }
 .button-title {
     color: white;
     font-size: 44px;
     line-height: 1.36;
     font-weight: 900;
-    width: 696px;
-    height: 120px;
+    padding-left: 252px;
+    padding-right: 252px;
     text-align: center;
 }
 .active-button {
@@ -115,46 +113,81 @@ body {
     background-color: #2196f3;
     border: none;
     border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 500px;
 }
 .active-button:active {
     color: magenta;
+}
+.primary-list {
+    list-style-type: none;
+    display: flex;
 }
 .primary-list p {
     font-size: 14px;
     font-weight: 400;
     color: #757575;
     line-height: 1.71;
+    letter-spacing: 3%;
+    margin-top: 10px;
 }
 
 .primary-list h3 {
     color: #212121;
     text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.17;
+    font-weight: 700;
+    letter-spacing: 3%;
 }
 .what-we-do {
     line-height: 1.17;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    text-align: center;
 }
 .team-section {
     background-color: #f5f4fa;
 }
 .team-title {
+    font-size: 36px;
     line-height: 1.17;
+    text-align: center;
+    margin-bottom: 50px;
 }
 .team-names {
     color: #212121;
     font-size: 16px;
     line-height: 1.17;
     font-weight: 500;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+.team-position {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 3%;
 }
 .footer-section {
     background-color: #2f303a;
-    display: flex;
-    flex-direction: column;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+.footer-section a {
+    display: block;
 }
 .footer-localization {
     text-decoration: none;
     color: white;
     line-height: 1.19;
     font-style: normal;
+    margin-top: 20px;
 }
 .footer-mail {
     text-decoration: none;
@@ -169,6 +202,7 @@ body {
     color: rgb(255, 255, 255, 0.6);
     line-height: 1.19;
     font-style: normal;
+    margin-top: 9px;
 }
 .footer-mail-portfolio:hover {
     color: var(--light-blue);
@@ -178,6 +212,7 @@ body {
     color: rgb(255, 255, 255, 0.6);
     line-height: 1.19;
     font-style: normal;
+    margin-top: 9px;
 }
 .footer-tel:hover {
     color: var(--light-blue);
@@ -209,41 +244,54 @@ body {
 }
 .secondary-list {
     list-style-type: none;
+    display: flex;
+    gap: 30px;
 }
-.primary-list {
-    list-style-type: none;
-}
+
 .portfolio-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+    margin-top: 50px;
+}
+.portfolio-list-main {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 30px;
+    margin-top: 50px;
 }
 .portfolio-section {
     display: flex;
 }
 .portfolio-list figure {
-    border-radius: 1px;
-    border-color: #eeeeee;
+    border: 1px solid #eeeeee;
 }
 .portfolio-list figcaption {
     color: #212121;
     font-size: 18px;
     line-height: 2;
     font-weight: 700;
+    letter-spacing: 3%;
 }
 .project-names {
     color: #212121;
     font-size: 18px;
     line-height: 2;
     font-weight: 700;
+    display: block;
+    padding-left: 24px;
+    letter-spacing: 6%;
 }
 .project-type {
     color: #757575;
     font-size: 16px;
     line-height: 1.88;
     font-weight: 400;
+    display: block;
+    padding-left: 24px;
 }
 .box-portfolio {
     margin-top: 147px;
@@ -267,6 +315,7 @@ body {
     border-radius: 4px;
     border-style: none;
     padding: 6px 22px;
+    letter-spacing: 3%;
 }
 .portfolio-nav-buttons button:hover {
     background-color: #2196f3;
@@ -276,5 +325,12 @@ body {
     box-sizing: border-box;
     width: 1200px;
     justify-content: center;
-    margin-left: 215px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.main-portfolio {
+    padding: 150px 215px 38px;
+}
+.section {
+    padding: 94px 0;
 }
