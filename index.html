@@ -11,11 +11,18 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
-        <header>
-            <div class="container">
+        <header class="header-wrapper">
+            <div class="container section">
                 <nav class="header-navigation">
                     <a class="logo" href="index.html"
                         >Web<span class="header-studio">Studio</span></a
@@ -27,31 +34,26 @@
                         </li>
                         <li><a href="#">Kontakt</a></li>
                     </ul>
-
-                    <ul class="contact-list">
-                        <li>
-                            <a class="nav-mail" href="mailto:info@devstudio.com"
-                                >info@devstudio.com</a
-                            >
-                        </li>
-                        <li>
-                            <a class="nav-tel" href="tel:+48-111-111-111"
-                                >+48 111 111 111</a
-                            >
-                        </li>
-                    </ul>
                 </nav>
+                <ul class="contact-list">
+                    <li>
+                        <a class="nav-mail" href="mailto:info@devstudio.com"
+                            >info@devstudio.com</a
+                        >
+                    </li>
+                    <li>
+                        <a class="nav-tel" href="tel:+48-111-111-111"
+                            >+48 111 111 111</a
+                        >
+                    </li>
+                </ul>
             </div>
         </header>
         <main>
-            <section class="service">
+            <section class="service section">
                 <div class="container">
-                    <h1 class="button-title">
-                        EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
-                    </h1>
-                    <button class="active-button" type="button">
-                        Zamów usługę
-                    </button>
+                    <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                    <button type="button">Zamów usługę</button>
                 </div>
             </section>
             <section>
@@ -194,7 +196,7 @@
             </section>
         </main>
         <footer class="footer-section">
-            <div class="container">
+            <div class="container section">
                 <a class="logo" href="index.html"
                     >Web<span class="footer-studio">Studio</span></a
                 >
@@ -204,10 +206,10 @@
                         href="https://goo.gl/maps/t7D3Fm8JjVbQzfDk6"
                         title="Lokalizacja"
                         >m. Warszawa, Aleje Jerozolimskie 21</a
-                    ><br />
+                    >
                     <a class="footer-mail" href="mailto:info@example.com"
                         >info@example.com</a
-                    ><br />
+                    >
                     <a class="footer-tel" href="tel:+48-111-111-111"
                         >+48 111 111 111</a
                     >

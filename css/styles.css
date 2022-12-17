@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+img {
+    vertical-align: middle;
+}
 :root {
     --light-blue: #2196f3;
 }
@@ -26,8 +29,6 @@
     line-height: 1.19;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
-    margin-top: 24px;
-    margin-right: 93px;
 }
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
@@ -39,11 +40,9 @@ body {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    margin-top: 32px;
-    margin-right: 364px;
-    margin-bottom: 32px;
     padding: 0;
     gap: 46px;
+    margin-left: 93px;
 }
 
 .nav-list a {
@@ -62,7 +61,6 @@ body {
     list-style: none;
     list-style-type: none;
     display: flex;
-    margin-top: 32px;
     padding: 0;
     gap: 50px;
 }
@@ -93,16 +91,15 @@ body {
     align-items: center;
     padding: 200px 452px 200px 452px;
 }
-.button-title {
+.service > .container > h1 {
     color: white;
     font-size: 44px;
     line-height: 1.36;
     font-weight: 900;
-    padding-left: 252px;
-    padding-right: 252px;
     text-align: center;
+    margin: 106px 252px 30px;
 }
-.active-button {
+.service > .container > button {
     color: white;
     font-size: 16px;
     line-height: 1.88;
@@ -115,8 +112,9 @@ body {
     border-radius: 4px;
     margin-top: 30px;
     margin-left: 500px;
+    margin-bottom: 106px;
 }
-.active-button:active {
+.service > .container > button:active {
     color: magenta;
 }
 .primary-list {
@@ -146,6 +144,7 @@ body {
     font-weight: 700;
     letter-spacing: 3%;
     text-align: center;
+    margin-top: -94px;
 }
 .team-section {
     background-color: #f5f4fa;
@@ -176,18 +175,18 @@ body {
 }
 .footer-section {
     background-color: #2f303a;
-    padding-top: 45px;
-    padding-bottom: 60px;
 }
 .footer-section a {
     display: block;
+}
+.footer-section > address {
+    flex-direction: column;
 }
 .footer-localization {
     text-decoration: none;
     color: white;
     line-height: 1.19;
     font-style: normal;
-    margin-top: 20px;
 }
 .footer-mail {
     text-decoration: none;
@@ -202,7 +201,6 @@ body {
     color: rgb(255, 255, 255, 0.6);
     line-height: 1.19;
     font-style: normal;
-    margin-top: 9px;
 }
 .footer-mail-portfolio:hover {
     color: var(--light-blue);
@@ -212,7 +210,6 @@ body {
     color: rgb(255, 255, 255, 0.6);
     line-height: 1.19;
     font-style: normal;
-    margin-top: 9px;
 }
 .footer-tel:hover {
     color: var(--light-blue);
@@ -227,8 +224,6 @@ body {
 }
 .secondary-list figure {
     background-color: white;
-    width: 270px;
-    height: 368px;
     border-radius: 2px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -237,6 +232,7 @@ body {
     line-height: 1.19;
     color: #212121;
     font-weight: 500;
+    padding-bottom: 30px;
 }
 .team-position {
     color: #757575;
@@ -253,7 +249,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 27px;
-    margin-top: 50px;
 }
 .portfolio-list-main {
     list-style-type: none;
@@ -294,9 +289,8 @@ body {
     padding-left: 24px;
 }
 .box-portfolio {
-    margin-top: 147px;
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
 .portfolio-nav-buttons {
     list-style-type: none;
@@ -322,15 +316,18 @@ body {
     color: white;
 }
 .container {
-    box-sizing: border-box;
     width: 1200px;
-    justify-content: center;
     margin: 0 auto;
     padding: 0 15px;
 }
-.main-portfolio {
-    padding: 150px 215px 38px;
-}
 .section {
     padding: 94px 0;
+}
+.header-wrapper {
+    padding: 24px 0 25px;
+    border-bottom: 1px solid #ececec;
+}
+.header-wrapper > .container {
+    display: flex;
+    justify-content: space-between;
 }

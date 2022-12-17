@@ -11,11 +11,18 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
-        <header>
-            <div class="container">
+        <header class="header-wrapper">
+            <div class="container section">
                 <nav class="header-navigation">
                     <a class="logo" href="index.html"
                         >Web<span class="header-studio">Studio</span></a
@@ -27,23 +34,23 @@
                         </li>
                         <li><a href="#">Kontakt</a></li>
                     </ul>
-                    <ul class="contact-list">
-                        <li>
-                            <a class="nav-mail" href="mailto:info@devstudio.com"
-                                >info@devstudio.com</a
-                            >
-                        </li>
-                        <li>
-                            <a class="nav-tel" href="tel:+48-111-111-111"
-                                >+48 111 111 111</a
-                            >
-                        </li>
-                    </ul>
                 </nav>
+                <ul class="contact-list">
+                    <li>
+                        <a class="nav-mail" href="mailto:info@devstudio.com"
+                            >info@devstudio.com</a
+                        >
+                    </li>
+                    <li>
+                        <a class="nav-tel" href="tel:+48-111-111-111"
+                            >+48 111 111 111</a
+                        >
+                    </li>
+                </ul>
             </div>
         </header>
-        <main class="main-portfolio">
-            <div class="container box-portfolio">
+        <main>
+            <div class="container box-portfolio section">
                 <ul class="portfolio-nav-buttons">
                     <li>
                         <button>Wszystkie</button>
@@ -63,7 +70,7 @@
                 </ul>
             </div>
             <section class="portfolio-section">
-                <div class="container">
+                <div class="container section">
                     <ul class="portfolio-list">
                         <li>
                             <figure>
