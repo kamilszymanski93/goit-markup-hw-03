@@ -264,9 +264,8 @@ body {
 }
 .portfolio-section {
     display: flex;
-}
-.portfolio-list figure {
-    border: 1px solid #eeeeee;
+    padding-bottom: 94px;
+    padding-top: 34px;
 }
 .portfolio-list figcaption {
     color: #212121;
@@ -275,6 +274,7 @@ body {
     font-weight: 700;
     letter-spacing: 3%;
     padding: 20px 24px;
+    border: 1px solid #eeeeee;
 }
 .project-names {
     color: #212121;
