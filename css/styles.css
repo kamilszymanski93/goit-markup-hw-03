@@ -10,7 +10,7 @@ img {
 }
 .header-navigation {
     display: flex;
-    border-bottom: 1px solid #ececec;
+    align-items: center;
 }
 
 .header-studio {
@@ -126,7 +126,7 @@ body {
     font-weight: 400;
     color: #757575;
     line-height: 1.71;
-    letter-spacing: 3%;
+    letter-spacing: 0, 03em;
     margin-top: 10px;
 }
 
@@ -144,7 +144,6 @@ body {
     font-weight: 700;
     letter-spacing: 3%;
     text-align: center;
-    margin-top: -94px;
 }
 .team-section {
     background-color: #f5f4fa;
@@ -175,6 +174,7 @@ body {
 }
 .footer-section {
     background-color: #2f303a;
+    padding: 60px 0px;
 }
 .footer-section a {
     display: block;
@@ -187,12 +187,14 @@ body {
     color: white;
     line-height: 1.19;
     font-style: normal;
+    margin-bottom: 9px;
 }
 .footer-mail {
     text-decoration: none;
     color: rgb(255, 255, 255, 0.6);
     line-height: 1.19;
     font-style: normal;
+    margin-bottom: 9px;
 }
 .footer-mail:hover {
     color: var(--light-blue);
@@ -201,6 +203,7 @@ body {
     color: rgb(255, 255, 255, 0.6);
     line-height: 1.19;
     font-style: normal;
+    margin-bottom: 9px;
 }
 .footer-mail-portfolio:hover {
     color: var(--light-blue);
@@ -248,7 +251,7 @@ body {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 27px;
+    gap: 30px;
 }
 .portfolio-list-main {
     list-style-type: none;
@@ -257,6 +260,7 @@ body {
     align-items: flex-start;
     gap: 30px;
     margin-top: 50px;
+    padding-bottom: 94px;
 }
 .portfolio-section {
     display: flex;
@@ -270,6 +274,7 @@ body {
     line-height: 2;
     font-weight: 700;
     letter-spacing: 3%;
+    padding: 20px 24px;
 }
 .project-names {
     color: #212121;
@@ -296,7 +301,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 8px;
-    margin-bottom: 34px;
+    padding-top: 101px;
 }
 .portfolio-nav-buttons button {
     color: #212121;
@@ -330,4 +335,8 @@ body {
 .header-wrapper > .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.footer-section > div > a {
+    margin-bottom: 20px;
 }
