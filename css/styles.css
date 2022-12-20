@@ -32,6 +32,7 @@ img {
     line-height: 1.19;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
+    letter-spacing: 0, 03em;
 }
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
@@ -46,6 +47,7 @@ body {
     padding: 0;
     gap: 46px;
     margin-left: 93px;
+    letter-spacing: 0, 02em;
 }
 
 .nav-list a {
@@ -66,6 +68,7 @@ body {
     display: flex;
     padding: 0;
     gap: 50px;
+    letter-spacing: 0, 02em;
 }
 
 .nav-contact {
@@ -91,12 +94,14 @@ body {
     font-weight: 900;
     text-align: center;
     margin: 106px 252px 30px;
+    letter-spacing: 0, 06em;
 }
 .service > .container > button {
     color: white;
     font-size: 16px;
     line-height: 1.88;
     font-weight: 700;
+    letter-spacing: 0, 06em;
     cursor: pointer;
     width: 200px;
     height: 50px;
@@ -140,6 +145,8 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    font-weight: 700;
+    letter-spacing: 0, 03em;
     margin-bottom: 50px;
 }
 .team-names {
@@ -150,6 +157,7 @@ body {
     display: block;
     text-align: center;
     margin-top: 30px;
+    letter-spacing: 0, 03em;
 }
 .team-position {
     display: block;
@@ -178,6 +186,7 @@ body {
     font-weight: 400;
     font-style: normal;
     margin-bottom: 9px;
+    letter-spacing: 0, 03em;
 }
 .footer-mail {
     text-decoration: none;
@@ -187,6 +196,7 @@ body {
     font-weight: 400;
     font-style: normal;
     margin-bottom: 9px;
+    letter-spacing: 0, 03em;
 }
 .footer-mail:hover {
     color: var(--light-blue);
@@ -198,6 +208,7 @@ body {
     font-weight: 400;
     font-style: normal;
     margin-bottom: 9px;
+    letter-spacing: 0, 03em;
 }
 .footer-mail-portfolio:hover {
     color: var(--light-blue);
@@ -209,6 +220,7 @@ body {
     line-height: 1.71;
     font-weight: 400;
     font-style: normal;
+    letter-spacing: 0, 03em;
 }
 .footer-tel:hover {
     color: var(--light-blue);
@@ -288,6 +300,7 @@ body {
     font-weight: 400;
     display: block;
     padding-left: 24px;
+    letter-spacing: 0, 03em;
 }
 .box-portfolio {
     display: flex;
